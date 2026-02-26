@@ -1,10 +1,11 @@
-import org.openqa.selenium.WebDriver;
+package ex02_Selenium_Basics;
+
 import org.openqa.selenium.firefox.FirefoxDriver;
 
-public class TestSelenium05_WebDriver {
+public class Selenium002 {
     public static void main(String[] args) {
-
-        WebDriver driver = new FirefoxDriver();
+        FirefoxDriver driver = new FirefoxDriver();
         driver.get("https://sdet.live");
+        driver.quit();
     }
 }
