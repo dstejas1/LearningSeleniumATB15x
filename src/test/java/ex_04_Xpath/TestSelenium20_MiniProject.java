@@ -13,7 +13,7 @@ import org.testng.annotations.Test;
 
 public class TestSelenium20_MiniProject {
 
-    @Owner("Pramod")
+    @Owner("Tejas")
     @Severity(SeverityLevel.CRITICAL)
     @Description("Verify login is working")
     @Test
