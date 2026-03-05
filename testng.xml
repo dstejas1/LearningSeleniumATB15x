@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/tejas/IdeaProjects/LearningSeleniumATB15x">
+        <classes>
+            <class name="ex02_Selenium_Basics.Selenium004">
+                <methods>
+                    <include name="Test1"/>
+                </methods>
+            </class>
+            <class name="ex03_Locators.TestSelenium16_LinkText_Partial_Text_TagName_Locators">
+                <methods>
+                    <include name="test_login_vwo"/>
+                </methods>
+            </class>
+            <class name="ex03_Locators.TestSelenium17_Mini_Project2_TagName">
+                <methods>
+                    <include name="vwo_free_trail_error_verify"/>
+                </methods>
+            </class>
+            <class name="ex03_Locators.ex02SeleniumBasics">
+                <methods>
+                    <include name="test_app_vwo_com"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
