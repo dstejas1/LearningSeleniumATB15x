@@ -1,4 +1,4 @@
-package ex_06_WebTables;
+package ex_07_Selenium_Waits;
 
 import io.qameta.allure.Description;
 import io.qameta.allure.Owner;
